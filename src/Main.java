@@ -31,9 +31,10 @@ import java.awt.*;
 import java.lang.reflect.Array;
 import java.text.NumberFormat;
 import java.util.Arrays;
+import java.util.Scanner;
 
-public class Main {
-    public static void main(String[]arg) {
+//public class Main {
+   // public static void main(String[]arg) {
         //byte x = 2;
         //byte y = x;
         //x=2;
@@ -118,6 +119,7 @@ public class Main {
 
          */
 
+        /*
         int result = Math.round(1.1F);
         int result2 = (int)Math.ceil(1.3);
         int result3 = (int)Math.floor(1.2F);
@@ -132,8 +134,66 @@ public class Main {
         System.out.println(result5);
         System.out.println(result6);
         System.out.println(result7);
+        */
+
+        /*
+        // format things
+        NumberFormat currency = NumberFormat.getCurrencyInstance();
+        String result = currency.format(123451245667.865);
+        System.out.println(result);
+
+        NumberFormat percent = NumberFormat.getPercentInstance();
+        String result2 = percent.format(1.2);
+        System.out.println(result2);
+
+        String result3 = NumberFormat.getPercentInstance().format(0.1);
+        System.out.println(result3);
+
+         */
+
+        /*
+        //Handing inputs
+        Scanner scanner = new Scanner((System.in));
+        System.out.print("Age: ");
+        byte age = scanner.nextByte();
+        System.out.println("you are " + age);
+
+        Scanner scanner1 = new Scanner((System.in));
+        System.out.print("Name: ");
+        String name = scanner1.nextLine();
+        System.out.println("You are " + name);
+
+        */
+        /*
+        // monthlyPayment
+        // P is principal
+        // r your monthly interest rate
+        // n is your number of payments
+        For example, imagine you have a $100,000 mortgage loan with 6
+        percent annual interest over 15 years. Your input for "P" would be $100,000.
+        For "r," you would use your monthly interest rate,
+        which would be 0.06 (6 percent) divided by 12, or 0.005 (0.5 percent).
+        For "n" you would use your total number of payments,
+        one for each month in fifteen years, which would be 12*15, or 180.
+
+         */
 
 
-        NumberFormat currency = NumberFormat.getCurrencyInstance()
-    }
-}
+    //}
+//}
+
+//Mortgage Calculator
+//my own algorithm 0 help
+// monthlyPayment
+// P is principal
+// r your monthly interest rate
+// n is your number of payments
+/*
+For example, imagine you have a $100,000 mortgage loan with 6
+        percent annual interest over 15 years. Your input for "P" would be $100,000.
+        For "r," you would use your monthly interest rate,
+        which would be 0.06 (6 percent) divided by 12, or 0.005 (0.5 percent).
+        For "n" you would use your total number of payments,
+        one for each month in fifteen years, which would be 12*15, or 180.
+
+ */

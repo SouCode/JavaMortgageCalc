@@ -4,6 +4,7 @@ import java.util.Scanner; // Import the Scanner class for user input
 
 public class Main {
     public static void main(String[] args) {
+        /*
         final byte MONTHS_IN_YEAR = 12;
         final byte PERCENT = 100;
 
@@ -33,5 +34,9 @@ public class Main {
         System.out.println("Mortgage: " + mortgageFormatted);
 
         scanner.close(); // Close the scanner to release resources
+
+
     }
+
 }
+
